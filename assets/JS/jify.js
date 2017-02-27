@@ -43,7 +43,7 @@ $(document).on("click" , ".gifButton"  ,  function () {
 
 	var theGif = $(this).attr('data-things');
 
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + theGif + "&limit=20&api_key=dc6zaTOxFJmzC&rating=R";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + theGif + "&limit=20&api_key=dc6zaTOxFJmzC&rating=R";
 
 
  	$.ajax({ url: queryURL, method:'GET'}).done(function(response){
