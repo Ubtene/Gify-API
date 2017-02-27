@@ -1,5 +1,5 @@
 
-var arrayOfThings = ['books', 'shelves', 'tapes'];
+var arrayOfThings = ['Nyan Cat', 'Spider Pig', 'Morty'];
 
 var secondArray = [];
 
